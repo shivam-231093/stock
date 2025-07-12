@@ -346,7 +346,7 @@ def main():
                     st.plotly_chart(fig_bar, use_container_width=True)
                 
                 # Detailed results table
-                st.header("📋 Detailed Recommendations")
+                st.header("Detailed Recommendations")
                 
                 # Filter options
                 col1, col2 = st.columns(2)
